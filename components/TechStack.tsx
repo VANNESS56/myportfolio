@@ -42,7 +42,6 @@ export default function TechStack() {
                 </span>
               </div>
 
-              {/* Progress Bar Container */}
               <div className="h-2 w-full bg-white/5 rounded-full overflow-hidden">
                 <motion.div
                   initial={{ width: 0 }}
