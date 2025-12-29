@@ -2,14 +2,13 @@
 import { motion } from "framer-motion";
 import { ExternalLink, Github } from "lucide-react";
 
-// 1. Tambahkan project baru di sini (tinggal copy-paste blok objeknya)
 const projects = [
   {
     title: "Vanness School",
     category: "Next JS",
     desc: "Platform website sekolah modern yang responsif dengan fitur News, Stats, dan Bento Grid Facilities. Dibuat menggunakan Next.js 14 dan Framer Motion.",
     image: "https://i.ibb.co.com/B5Hd9Nkc/image.png",
-    github: "#", // Ganti dengan link github projectmu
+    github: "#", 
     demo: "https://vannessschool.vercel.app",
     stack: ["Next.js 14", "Tailwind CSS", "Framer Motion"]
   },
@@ -78,7 +77,6 @@ export default function ProjectCard() {
                     {project.desc}
                   </p>
                   
-                  {/* Daftar Stack (Optional) */}
                   <div className="flex flex-wrap gap-3 mb-8">
                     {project.stack.map((tech, index) => (
                       <span key={index} className="text-[10px] bg-white/5 text-slate-300 px-3 py-1 rounded-full border border-white/10 font-mono">
