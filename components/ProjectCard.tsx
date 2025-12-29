@@ -6,7 +6,7 @@ import { ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     title: "Vanness School",
-    category: "NextJS",
+    category: "Next JS",
     desc: "Platform website sekolah modern yang responsif dengan fitur News, Stats, dan Bento Grid Facilities. Dibuat menggunakan Next.js 14 dan Framer Motion.",
     image: "https://i.ibb.co.com/B5Hd9Nkc/image.png",
     github: "#", // Ganti dengan link github projectmu
@@ -16,7 +16,7 @@ const projects = [
 
    {
     title: "Vanness Store",
-    category: "UI/UX Design",
+    category: "Web App",
     desc: "Website Toko Online yang dikelola menggunakan Database yang terkoneksi langsung ke Apps Script dan dilengkapi dengan Admin Dashboard",
     image: "https://i.ibb.co.com/QFgZXyst/image.png",
     github: "#",
@@ -26,7 +26,7 @@ const projects = [
   
  {
     title: "Website Kelas Sekolah",
-    category: "UI/UX Design",
+    category: "Web App",
     desc: "Website Kelas Sekolah yang terintergrasi ke Admin Dashboard untuk mengelola data Siswa dan Mengedit/Menambahkan Informasi ke papan informasi Website untuk emmpermudah siswa dalam membaca dan mengingat informasi kelas yang diberikan.",
     image: "https://i.ibb.co.com/BdSYzLh/image.png",
     github: "#",
