@@ -6,7 +6,6 @@ export default function AboutMe() {
   return (
     <section id="about" className="py-24 px-6 bg-[#050505]">
       <div className="max-w-5xl mx-auto">
-        {/* Title */}
         <div className="mb-12">
           <h3 className="text-blue-500 font-mono text-[10px] tracking-[0.4em] uppercase mb-4">
             Introduction
@@ -16,10 +15,8 @@ export default function AboutMe() {
           </h2>
         </div>
 
-        {/* Bento Grid Layout */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 auto-rows-[180px]">
           
-          {/* Card 1: Deskripsi Utama */}
           <motion.div 
             whileHover={{ y: -5 }}
             className="md:col-span-2 md:row-span-2 bg-[#0a0a0a] border border-white/5 rounded-[2.5rem] p-8 md:p-12 flex flex-col justify-center gap-6 group"
@@ -36,8 +33,7 @@ export default function AboutMe() {
               </p>
             </div>
           </motion.div>
-
-          {/* Card 2: Lokasi */}
+          
           <motion.div 
             whileHover={{ y: -5 }}
             className="bg-[#0a0a0a] border border-white/5 rounded-[2.5rem] p-8 flex flex-col justify-between group"
@@ -49,7 +45,6 @@ export default function AboutMe() {
             </div>
           </motion.div>
 
-          {/* Card 3: Status */}
           <motion.div 
             whileHover={{ y: -5 }}
             className="bg-blue-600 rounded-[2.5rem] p-8 flex flex-col justify-between text-white"
@@ -58,7 +53,6 @@ export default function AboutMe() {
             <h4 className="font-bold leading-tight">Membangun Web Profile & Dashboard</h4>
           </motion.div>
 
-          {/* Card 4: Passion (Full Width on Mobile) */}
           <motion.div 
             whileHover={{ y: -5 }}
             className="md:col-span-3 bg-gradient-to-r from-[#0a0a0a] to-[#111] border border-white/5 rounded-[2.5rem] p-8 md:px-12 flex items-center justify-between group"
