@@ -57,7 +57,7 @@ const projects = [
     title: "V-Readme Generator",
     category: "Web App",
     desc: "Website yang berfungsi untuk meng-generate README file untuk github terlihat lebih profesional dan menarik.",
-    image: "https://i.ibb.co.com/d463jyrL/image.png",
+    image: "https://i.ibb.co.com/bjXQyjGF/image.png",
     github: "#",
     demo: "https://vreadme-generator.vercel.app/",
     stack: ["Next.js", "Tailwind CSS"]
