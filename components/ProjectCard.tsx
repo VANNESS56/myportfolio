@@ -47,11 +47,11 @@ const projects = [
     title: "V Clean",
     category: "Web App",
     desc: "Laundry Landing Page untuk UMKM yang dibuat menggunakan NextJS",
-    image: "https://i.ibb.co.com/d463jyrL/image.png"",
+    image: "https://i.ibb.co.com/d463jyrL/image.png",
     github: "#",
     demo: "https://v-encryption.vercel.app/",
     stack: ["Next.js", "Tailwind CSS"]
-  }, 
+  },
   
 ];
 
