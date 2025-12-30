@@ -52,6 +52,16 @@ const projects = [
     demo: "https://v-encryption.vercel.app/",
     stack: ["Next.js", "Tailwind CSS"]
   },
+
+  {
+    title: "V-Readme Generator",
+    category: "Web App",
+    desc: "Website yang berfungsi untuk meng-generate README file untuk github terlihat lebih profesional dan menarik.",
+    image: "https://i.ibb.co.com/d463jyrL/image.png",
+    github: "#",
+    demo: "https://vreadme-generator.vercel.app/",
+    stack: ["Next.js", "Tailwind CSS"]
+  },
   
 ];
 
