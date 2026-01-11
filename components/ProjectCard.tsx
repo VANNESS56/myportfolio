@@ -62,6 +62,16 @@ const projects = [
     demo: "https://vreadme-generator.vercel.app/",
     stack: ["Next.js", "Tailwind CSS"]
   },
+
+   {
+    title: "Vanness Store V2",
+    category: "Web App",
+    desc: "Website toko online yang menjual nomor virtual / nokos untuk verifikasi akun/aplikasi/web yang terintegrasi dengan API Key dan Payment Gateway otomatis, Dilengkapi dengan Admin Dashboard untuk mengelola produk, Mengecek API dan Terhubung dengan Database",
+    image: "https://i.ibb.co.com/N2L0X4Sf/image.png",
+    github: "#",
+    demo: "https://vannessstore.my.id/",
+    stack: ["Next.js", "Tailwind CSS", "React", "PHP"]
+  },
   
 ];
 
